@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-typescript-snippets",
+  "version": "0.1.0",
+  "description": "TypeScript snippets for cucumber.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmair/cucumber-typescript-snippets.git"
+  },
+  "keywords": [
+    "cucumber",
+    "snippets",
+    "typescript"
+  ],
+  "author": "Thomas Mair <thomas.mair86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmair/cucumber-typescript-snippets/issues"
+  },
+  "homepage": "https://github.com/tmair/cucumber-typescript-snippets#readme"
+}
