@@ -10,8 +10,6 @@ TypeScriptSnippetSyntax.prototype.build = function({
   functionName,
   stepParameterNames
 }) {
-  console.log(arguments);
-
   let functionKeyword = '';
   if (this.snippetInterface === 'generator') {
     functionKeyword += '*';
@@ -31,7 +29,6 @@ TypeScriptSnippetSyntax.prototype.build = function({
   const definitionChoices = generatedExpressions.map((generatedExpression, index) => {
     const prefix = index === 0 ? '' : '// ';
 
-    console.log(generatedExpression);
     const allParameterNames = generatedExpression.parameterNames
       .map(parameterName => `${parameterName}: any`)
       .concat(stepParameterNames.map(stepParameterName => `${stepParameterName}: any`));
